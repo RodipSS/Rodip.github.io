@@ -1,0 +1,30 @@
+.justText {
+    text-align: center;
+    font-family: 'HackNerdFontBold', monospace;
+}
+
+.download {
+    border-radius: 20px;
+    border-color:blue ;
+    border-style: double;
+    width: 50%;
+}
+
+.github {
+    border-radius: 20px;
+    border-color:rgba(4, 4, 123, 0.479) ;
+    border-style: double;
+    width: 49%;
+    background-color: rgba(67, 67, 67, 0.872);
+    height: 30px;
+}
+
+@font-face {
+    font-family: 'HackNerdFontMono';
+    src: url('fonts/HackNerdFontMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HackNerdFontBold';
+    src: url('fonts/HackNerdFontMono-Bold.ttf') format('truetype');
+}
