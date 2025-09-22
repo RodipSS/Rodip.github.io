@@ -4,14 +4,39 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to top, rgb(22, 22, 22), rgb(134, 134, 134));
+  background-image: linear-gradient(to top, rgb(46, 46, 46), rgb(134, 134, 134));
 }
 
 footer {
   margin-top: 0%;
   background: #2222227a;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+}
+
+.textArea {
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    font-size: 170%;
+}
+
+.TitleText {
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(-2px 2px 2px rgb(0, 0, 0));
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 0;
+    -webkit-filter: drop-shadow(-2px 2px 2px rgb(0, 0, 0));
+    font-weight: bold;
+    font-family: 'NerdFont', monospace;
+
+}
+
+@font-face {
+  font-family: NerdFont; /* set name */
+  src: url(fonts/HackNerdFontMono-Regular.ttf); /* url of the font */
 }
 
 footer .btn {
@@ -23,6 +48,7 @@ footer .btn {
   color: white;
   background: #0000005d;
   transition: background 0.3s;
+  font-family: 'NerdFont', monospace;
 }
 
 footer .btn:hover {
