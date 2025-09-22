@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to top, rgb(22, 22, 22), rgb(134, 134, 134));
+}
+
+footer {
+  margin-top: 0%;
+  background: #2222227a;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .btn {
+  display: inline-block;
+  margin-top: 0%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  background: #0000005d;
+  transition: background 0.3s;
+}
+
+footer .btn:hover {
+  background: #666;
+}
+
+/* Цвета для разных кнопок */
+.donate { background: #e63946; }   /* Красная */
+.github { background: #8d5b5b; }      /* Тёмная */
+.download { background: #1d3557; } /* Синяя */
